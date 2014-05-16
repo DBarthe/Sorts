@@ -119,7 +119,7 @@ void mergesort(void **tab, size_t size, CmpFunction cmpFunction, Order order)
   free(newTab);
 
 #ifdef INFOS
-  printf("%lu elements sorted in %lu comparisons with heapsort\n",
+  printf("%lu elements sorted in %lu comparisons with mergesort\n",
 	 size, compareCounter);
 #endif
 }
